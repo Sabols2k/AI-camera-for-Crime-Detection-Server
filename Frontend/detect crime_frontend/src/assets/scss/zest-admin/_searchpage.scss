@@ -1,0 +1,60 @@
+
+
+/*-----------------------------------------------------------
+    Search page
+----------------------------------------------------------*/
+
+.search_result {
+    margin: 0 0px 20px 0;
+    display: inline-block;
+    width: 100%;
+    padding-left: 0px;
+
+    .searchtitle{
+        margin-bottom: 8px;
+    }
+    .searchauthor{
+        margin-bottom: 8px;
+    }
+}
+.search_result.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.search_result img {
+    width: 100%;
+    height: auto;
+    margin: 15px 0 0 0;
+}
+.search_data .nav-tabs>li>a {
+    background-color: #eeeeee;
+}
+.search_data .nav>li>a:hover, .search_data .nav>li>a:focus {
+    background-color: #fafafa;
+}
+.search_data .tab-content {
+    padding: 30px 30px 30px 30px;
+}
+.search_data .tab-pane {
+    /*     height: 600px;
+    overflow: hidden; */
+    position: relative;
+}
+@media screen and (max-width: 768px) {
+    .search_data .nav-tabs{
+        padding-right: 0px;
+        .nav-item{
+            width: 100%;
+        }        
+        .nav-link{
+            margin-right: 0px;
+        }
+    }
+}
+
+.music_genre_search .tab-pane {
+    height: 1200px;
+    overflow: hidden;
+    position: relative;
+}
+

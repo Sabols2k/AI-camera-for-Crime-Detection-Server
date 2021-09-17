@@ -1,0 +1,111 @@
+
+/*-----------------------------------------------------------
+    Notification Widget (Dashboard)
+----------------------------------------------------------*/
+
+.notification-widget {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 450px;
+    margin-left: -4px;
+    padding-right: 5px;
+}
+.notification-widget li {
+    padding: 15px;
+    overflow: hidden;
+    height: auto;
+    display: block;
+    background: #ffffff;
+    margin: 5px 0px 15px 4px;
+    box-shadow: 0 1px 3px rgba(33, 33, 33, 0.2);
+    -webkit-box-shadow: 0 1px 3px rgba(33, 33, 33, 0.2);
+    -moz-box-shadow: 0 1px 3px rgba(33, 33, 33, 0.2);
+    -o-box-shadow: 0 1px 3px rgba(33, 33, 33, 0.2);
+    -ms-box-shadow: 0 1px 3px rgba(33, 33, 33, 0.2);
+}
+.notification-widget li a {
+    text-decoration: none;
+    color: #717171;
+}
+.notification-widget li .name, .notification-widget li .desc {
+    display: block;
+    position: relative;
+}
+.notification-widget li .user-img img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 5px 15px 0px 0;
+    opacity: 0.8;
+}
+.notification-widget li .profile-status {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    top: 3px;
+    left: 35px;
+    background: #ddd;
+    border: 1px solid #fff;
+}
+.notification-widget li .name {
+    color: #555555;
+    margin: 0 0 5px 0;
+    font-weight: normal;
+}
+.notification-widget li .name .time {
+    color: #999999;
+    float: right;
+    font-size: 12px;
+}
+.notification-widget li .desc {
+    color: #757575;
+    font-size: 12px;
+    line-height: 19px;
+    padding-left: 55px;
+}
+/* .notification-widget li.unread .user-img img {
+    opacity: 1;
+}
+.notification-widget li.unread .name {
+    color: #717171;
+}
+.notification-widget li.unread .name .time {
+    color: #aaaaaa;
+}
+.notification-widget li.unread .desc {
+    color: #777777;
+} */
+.notification-widget li.external a:hover, .notification-widget li.external {
+    height: auto;
+    background: #eeeeee;
+}
+.notification-widget li.external a {
+    display: block;
+    padding: 15px 30px;
+    color: #555555;
+    font-size: 15px;
+}
+.wid-notification {
+    margin-bottom: 0px;
+    min-height: 400px;
+}
+
+.notification-widget li .profile-status{
+
+}
+ 
+.notification-widget li .profile-status.available{background-color: rgba(102,189,120,1);}
+.notification-widget li .profile-status.away{background-color: rgba(255,193,7,1);}
+.notification-widget li .profile-status.busy{background-color: rgba(240,80,80,1);}
+.notification-widget li .profile-status.idle{background-color: rgba(250,133,100,1);}
+.notification-widget li .profile-status.offline{background-color: rgba(169,169,169,1);}
+

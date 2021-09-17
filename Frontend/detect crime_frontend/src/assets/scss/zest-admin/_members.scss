@@ -1,0 +1,158 @@
+
+/*---------------------------------------------
+    Team Members
+----------------------------------------------*/
+.team-member .social-icons{
+    display: inline;
+    position: absolute;
+    top: -50px;
+    right: 15px;
+    margin-bottom: 0px;
+}
+
+.team-member .social-icons a {
+    display: inline-block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.team-member .social-icons i {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    padding: 0px !important;
+    text-align: center;
+    text-decoration: none;
+}
+
+.team-member {
+    display: inline-block;
+    padding: 0px;
+    border: 0px solid #eaeaea;
+    margin: 0 0 30px 0;
+    background-color: transparent;
+    margin: 0 0 30px 0;
+    box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -webkit-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -moz-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -o-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -ms-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+
+}
+
+.team-info {
+    margin: 20px 0 20px 0;
+    display: block;
+    position: relative;
+    padding: 0px 20px 0 20px;
+}
+
+.team-info h3{
+    margin-bottom: 5px;
+    font-size: 22px;
+    line-height: 36px;
+}
+.team-info span {
+    color: #aaaaaa;
+}
+.team-info p{
+    margin: 10px 0 15px 0;
+}
+
+
+.team-member-edit{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.team-member.col .team-member-edit{
+    top :0px;
+}
+
+.team-member.col .team-info{
+    padding-left: 15px;
+    margin-top: 0px;
+}
+
+.team-member.col .team-info h4{
+    margin: 0px 0 5px 0 !important;
+}
+
+.team-img{
+    padding: 0px;
+}
+
+.team-member h4,
+.tab-pane .team-info h4{
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+.ecommerce_product .thumb, .music_genre .thumb {
+    position: relative;
+}
+
+.ecommerce_product .thumb img, .music_genre .thumb img {
+    position: relative;
+    z-index: 1;
+}
+.ecommerce_product img, .music_genre img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.ecommerce_product .thumb .overlay, .music_genre .thumb .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(33,33,33,0.5);
+    opacity: 0;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    transition: .5s;
+    -webkit-transition-timing-function: cubic-bezier(0.4,0,0.5,1);
+    -moz-transition-timing-function: cubic-bezier(0.4,0,0.5,1);
+    transition-timing-function: cubic-bezier(0.4,0,0.5,1);
+}
+
+.ecommerce_product .thumb .overlay a i, .music_genre .thumb .overlay a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    color: #53bec3;
+    opacity: 1;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+
+.ecommerce_product .thumb:hover .overlay, .music_genre .thumb:hover .overlay{
+    opacity: 1;
+}
+
+.team-member.aside-style{
+    .team-info{
+        margin-top: 0px;
+    }
+    .social-icons{
+        top: 15px;
+        right: 30px;
+    }
+    p{
+        padding-right: 15px;
+    }
+    .team-img{
+        padding: 15px 0px 15px 15px;
+    }
+
+}

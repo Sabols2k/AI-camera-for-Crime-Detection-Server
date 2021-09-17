@@ -1,0 +1,658 @@
+
+/*------------------------------------------
+    Widget - Tile Counter 
+---------------------------------------------*/
+
+.tile-counter {
+    padding: 15px 30px 25px 30px;
+    margin: 0px 0px 30px 0;
+    box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -webkit-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -moz-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -o-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -ms-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+}
+.tile-counter .wid-content {
+    display: block;
+    text-align: left;
+}
+
+.tile-counter i {
+    margin: 15px 15px 20px 0px;
+    font-size: 36px;
+    line-height: 48px;
+    display: block;
+}
+.tile-counter span {
+    display: block;
+    clear: both;
+}
+.tile-counter h2{
+    margin: 0px 0 0 0;
+    display: inline-block;
+}
+.tile-counter h2 span {
+    color: #f5f5f5;
+    font-weight: normal;
+    line-height: 35px;
+    font-size: 25px;
+}
+.tile-counter span {
+    color: #eeeeee;
+    display: block;
+    margin: 10px 0 0px 0;
+    font-size: 15px;
+    font-weight: 300;
+    white-space: nowrap;
+}
+.tile-counter.bg-secondary i, .tile-counter.bg-secondary h2 {
+    color: #ffffff;
+}
+.tile-counter.bg-secondary span {
+    color: #eaeaea;
+}
+.tile-counter.inverted {
+    background-color: #ffffff;
+    border: 1px solid #f5f5f5;
+}
+.tile-counter.inverted h2, .tile-counter.inverted span {
+    color: inherit;
+}
+.tile-counter.inverted span {
+    opacity: .8;
+}
+/*------------------------------------------
+    Widget - Tile Progress widget 
+---------------------------------------------*/
+
+.tile-progress {
+    padding: 30px;
+    margin: 0px 0px 30px 0;
+    box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -webkit-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -moz-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -o-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -ms-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+}
+.tile-progress h2 {
+    color: #ffffff;
+    margin: 0 0 0px 0;
+    text-align: left;
+    white-space: nowrap;
+    font-weight: normal;
+    font-size: 24px;
+}
+.tile-progress p {
+    margin: 0 0 30px 0;
+}
+.tile-progress h2 i {
+    margin-right: 5px;
+}
+.tile-progress span {
+    color: #eeeeee;
+    display: block;
+    text-align: left;
+    margin: 0px;
+    font-size: 14px;
+}
+.tile-progress .progress {
+    margin: 15px 0 15px 0;
+    height: 5px;
+    background: $black-opacity-2;
+}
+.tile-progress .progress .progress-bar {
+    background: #ffffff;
+}
+.tile-progress.inverted {
+    border: 1px solid #f5f5f5;
+    background: #ffffff;
+}
+.tile-progress.inverted h2, .tile-progress.inverted span {
+    color: inherit;
+}
+.tile-progress.inverted span {
+    opacity: .8;
+}
+.tile-progress.inverted .progress {
+    background: rgba(50, 50, 58, 0.3);
+}
+.tile-progress.inverted.text-primary .progress .progress-bar {
+    background: $primary-color;
+}
+.tile-progress.inverted.text-info .progress .progress-bar {
+    background: $info-color;
+}
+.tile-progress.inverted.text-warning .progress .progress-bar {
+    background: $warning-color;
+}
+.tile-progress.inverted.text-danger .progress .progress-bar {
+    background: $danger-color;
+}
+.tile-progress.inverted.text-success .progress .progress-bar {
+    background: $success-color;
+}
+.tile-progress.inverted.text-purple .progress .progress-bar {
+    background: $purple-color;
+}
+.tile-progress.inverted.text-accent .progress .progress-bar {
+    background: $accent-color;
+}
+.tile-progress.inverted.text-secondary .progress .progress-bar {
+    background: #9e9e9e;
+}
+
+
+/*-------------------------------------------------
+    Widget - To Do Task List
+-------------------------------------------------*/
+
+.cmpltadmin-todo-task {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.wid-task-header {
+    display: block;
+    margin-bottom: 10px;
+}
+.wid-task-header .wid-icon {
+    float: left;
+}
+.wid-task-header .wid-icon i {
+    font-size: 30px;
+    color: #eaeaea;
+    margin: 3px 15px 0 0;
+}
+.wid-task-header .wid-text h4 {
+    color: #ffffff;
+    display: block;
+    margin: 0px 0 0px 0;
+    font-weight: 700;
+}
+.wid-task-header .wid-text span {
+    display: block;
+    color: #e1e1e1;
+    white-space: nowrap;
+}
+.wid-add-task {
+    margin-top: 15px;
+}
+.wid-add-task .form-control{
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 2px solid rgba(255,255,255,.7);
+    padding-left: 0px;
+    color: #ffffff;
+}
+.wid-all-tasks {
+    display: block;
+    color: #ffffff;
+    margin: 15px 0;
+}
+.wid-all-tasks ul .icheck-label {
+    color: #ffffff;
+}
+.wid-all-tasks ul li label {
+    max-width: 200px !important;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    white-space: nowrap;
+    cursor: hand;
+    cursor: pointer;
+    width: auto;
+}
+.wid-all-tasks ul li.checked label {
+    color: #dddddd;
+}
+.wid-all-tasks ul li label:after {
+    content: " ";
+    height: 1px;
+    background-color: transparent;
+    position: relative;
+    top: -11px;
+    width: 100%;
+    display: block;
+}
+.wid-all-tasks ul li.checked label:after {
+    background-color: #eaeaea;
+}
+.wid-all-tasks ul {
+    overflow: hidden;
+    position: relative;
+    max-height: 160px;
+}
+/*-------------------------------------------------
+    Widget - Social Media
+-------------------------------------------------*/
+
+.wid-social {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+    margin: 0px 0 30px 0;
+        box-shadow: 0 1px 3px rgba(33, 33, 33, 0.2);
+    -webkit-box-shadow: 0 1px 3px rgba(33, 33, 33, 0.2);
+    -moz-box-shadow: 0 1px 3px rgba(33, 33, 33, 0.2);
+    -o-box-shadow: 0 1px 3px rgba(33, 33, 33, 0.2);
+    -ms-box-shadow: 0 1px 3px rgba(33, 33, 33, 0.2);
+}
+.wid-social .social-info .percent {
+    color: #999999;
+}
+.wid-social .social-info h3, .wid-social .social-info h4 {
+    color: #757575;
+    font-weight: normal;
+}
+.wid-social .social-info h3 {
+    display: inline-block;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.wid-social .social-info h4 {
+    font-size: 17px;
+    margin: 0px 0 5px 0;
+}
+.wid-social .social-icon i{
+    font-size: 35px;
+    margin-right: 15px;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.wid-social.inverted {
+    background-color: #ffffff;
+
+}
+/*----------------------------------------
+  Widget - Blogs
+------------------------------------------*/
+
+.wid-blog {
+    display: inline-block;
+}
+.wid-blog-title {
+    padding: 30px;
+    display: inline-block;
+    position: relative;
+    background-image: url("../img/widget-blog.jpg");
+    background-color: $accent-color;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.wid-blog-title .actions {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.wid-blog .wid-blog-title .actions i, .wid-blog .wid-blog-title .actions i:hover {
+    color: #e8e8e8;
+}
+.wid-blog-title h2 {
+    color: #f5f5f5;
+    line-height: 43px;
+    font-size: 26px;
+}
+.wid-blog-content {
+    padding: 15px 15px 5px 15px;
+    display: inline-block;
+}
+.wid-blog-content.row{
+    margin-left: 0px;
+    margin-right: 0px;
+    vertical-align: top;
+}
+.wid-blog-content .info-wrapper{
+    padding-left: 0px;
+    padding-right: 0px;
+    width: calc(100% - 90px);
+    max-width: none;
+}
+.wid-blog-content .info-wrapper h4 {
+    margin: 5px 0 7px 0;
+    font-size: 18px;
+}
+.wid-blog-content .pic-wrapper {
+    padding: 0px 10px 0px 5px;
+    max-width: 90px;
+    width: 90px;
+}
+.wid-blog-content .pic-wrapper img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 5px 0 10px 5px;
+    background: #aaaaaa;
+}
+.wid-blog-content .info-wrapper .info {
+    margin: 5px 0 10px 0;
+}
+.wid-blog-content .info-wrapper .info-details, .wid-blog-content .info-wrapper .info-actions {
+    font-size: 85%;
+}
+.wid-blog-content .comment {
+    margin: 15px 0 0 0;
+    display: inline-block;
+    width: 100%;
+}
+.wid-blog-content .comment .pic-wrapper img {
+    min-width: 28px;
+    min-height: 28px;
+}
+/*----------------------------------------
+  Widget - Sparkline Graphs
+------------------------------------------*/
+
+.wid-sparkgraph {
+    padding: 15px;
+    min-height: 110px;
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -webkit-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -moz-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -o-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -ms-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+}
+/*----------------------------------------
+  Widget - Vector Map
+------------------------------------------*/
+.jvectormap-container svg path{
+    fill: #cccccc;
+}
+.jvectormap-container svg path:hover{
+    fill: $primary-color;
+}
+.wid-vectormap {
+    min-height: auto;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.wid-vectormap .map_progress{
+    margin: 0px 0 0 0;
+    padding: 0px;
+}
+.wid-vectormap .map_progress h4 {
+    margin: 0 0 0px 0;
+    font-size: 17px;
+}
+.wid-vectormap .map_progress h5{
+    margin: 0 0 5px 0;
+}
+.wid-vectormap .map_progress .progress {
+    margin: 10px 0;
+    height: 5px;
+}
+.wid-vectormap .map_progress .text-muted{
+    font-size: 13px;
+}
+
+.wid-vectormap.mapsmall{
+    margin-top: -30px;
+    .bar_graph_rows{
+        margin-top: -30px;
+    }/* 
+    .map_progress{
+        padding: 15px;
+    } */
+}
+.wid-vectormap.mapfull{
+    .map_progress {
+        padding: 0 15px 0 0px;
+        h4{
+            margin-bottom: 4px;
+        }
+        .progress{
+            margin-top: 14px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .wid-vectormap.mapbig{
+        .map-area{
+            display: none;
+        }
+    }
+}
+.widget-map-area{
+    margin-top: 30px;
+}
+@media (max-width: 767px) {
+    .widget-map-area{
+        margin-top: 0px;
+    }
+}
+@media (max-width: 575px) {
+    .widget-map-area{
+        display: none;
+    }
+}
+
+.wid-vectormap .jvectormap-zoomin, .wid-vectormap .jvectormap-zoomout, 
+.wid-vectormap .jvectormap-goback {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    background: #777777;
+    padding: 4px;
+    color: white;
+    cursor: pointer;
+    line-height: 8px;
+    height: 16px;
+    width: 16px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    right: 16px;
+    display: none;
+}
+.wid-vectormap .jvectormap-zoomin{
+    right: 33px;
+}
+
+.tabs-vertical-env.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/*----------------------------------------
+  Widget - Weather
+------------------------------------------*/
+
+.wid-weather {
+    display: inline-block;
+    width: 100%;
+    min-height: 325px;
+}
+.wid-weather.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.wid-weather .weekdays {
+    min-height: 325px;
+    display: inline-block;
+}
+.wid-weather .weekdays ul {
+    overflow: hidden;
+    position: relative;
+    height: 315px;
+}
+.wid-weather .today {
+    display: inline-block;
+    color: #ffffff;
+    min-height: 325px;
+    padding: 25px 25px 0px 25px;
+    background-image: url("../img/widget-weather.jpg");
+    background-color: $primary-color;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.wid-weather .today .degree {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+.wid-weather .today .degree i {
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.wid-weather .today .degree span {
+    display: block;
+    color: #e1e1e1;
+    text-align: left;
+}
+.wid-weather .today .degree h3 {
+    display: block;
+    text-align: left;
+    margin: 0px;
+    color: #f5f5f5;
+}
+.wid-weather .today .degree .windspeed {
+    text-align: left;
+    margin: 0px;
+    color: #f5f5f5;
+    white-space: nowrap;
+}
+.wid-weather .today .degree .windspeed i {
+    margin: 5px 0px 0 0;
+}
+.wid-weather .today .degree h4 {
+    text-align: center;
+    margin: 0px;
+    color: #f5f5f5;
+    margin: 30px 0 10px 0;
+    white-space: nowrap;
+}
+.wid-weather .today .location h3 {
+    color: #f5f5f5;
+    text-align: left;
+    display: block;
+    margin: 0 0 5px 0;
+}
+.wid-weather .today .location span {
+    color: rgba(255,255,255,0.8);
+    text-align: left;
+    display: block;
+}
+.wid-weather .today .location {
+    width: 100%;
+    display: inline-block;
+}
+.wid-weather .today .timings {
+    margin-top: 100px;
+}
+.wid-weather .today .timings li {
+    display: inline-block;
+    width: 50px;
+    margin: 15px 15px 0 0;
+    border-left: 1px solid rgba(200, 200, 200, 0.6);
+    color: #eaeaea;
+    text-align: center;
+    padding: 0 0px 0 20px;
+}
+.wid-weather .today .timings li:first-child {
+    border-color: transparent;
+    padding: 0px;
+}
+.wid-weather .today .timings .time {
+    display: block;
+    margin: 0 0 10px 0;
+    color: #ffffff;
+    font-weight: normal;
+}
+.wid-weather .today .timings i {
+    color: #eaeaea;
+}
+.wid-weather .today .timings .temp {
+    color: #eaeaea;
+    display: block;
+    margin: 5px 0 0px 0;
+    color: #f5f5f5;
+}
+@media (max-width: 576px) {
+    .wid-weather .today .timings li.d-xs-none{
+        display: none;
+    }
+}
+/*----------------------------------------
+  Widget - User Profile Tile
+------------------------------------------*/
+
+.wid-uprofile {
+    min-height: 325px;
+    display: inline-block;
+    width: 100%;
+    padding: 25px 0 0 0;
+}
+.wid-uprofile .uprofile-image {
+    width: 100%;
+    display: inline-block;
+    margin: 0 0 15px 0;
+    text-align: center;
+    padding: 0 15px;
+}
+.wid-uprofile .uprofile-image img {
+    height: 100px;
+    width: 100px;
+    background-color: #f5f5f5;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 auto;
+}
+.wid-uprofile .uprofile-name {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0 0 5px 0;
+    padding: 0 15px;
+}
+.wid-uprofile .uprofile-name h3 {
+    text-align: center;
+    font-size: 21px;
+    margin: 5px 0 5px 0;
+}
+.wid-uprofile .uprofile-name h3 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.wid-uprofile .uprofile-name .uprofile-title {
+    color: #fafafa;
+}
+.wid-uprofile .uprofile-status {
+    width: 6px;
+    height: 6px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+}
+.wid-uprofile .uprofile-social {
+    margin: 0px 0 0 0;
+    padding: 10px 15px 15px 15px;
+    text-align: left;
+    background-color: #ffffff;
+    vertical-align: top;
+}
+.wid-uprofile .uprofile-social .btn {
+    margin: 0 2px 5px 3px;
+}
+.wid-uprofile .uprofile-info {
+    padding: 15px 25px 5px 25px;
+    background-color: rgba(150, 100, 0, 0.1);
+    background-color: #ffffff;
+    margin-bottom: 0px;
+}
+.wid-uprofile .uprofile-info li {
+    display: block;
+    margin: 0px 0 5px 0;
+    color: #777777;
+}
+.wid-uprofile .uprofile-info li i {
+    margin-right: 5px;
+}
+

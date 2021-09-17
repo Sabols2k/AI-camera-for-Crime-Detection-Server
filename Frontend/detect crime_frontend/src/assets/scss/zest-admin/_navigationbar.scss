@@ -1,0 +1,34 @@
+
+/*---------------------------------------------
+      Navigation Bars
+--------------------------------------------*/
+.navbar form{
+    display: inline;
+    text-align: right;
+}
+/* .navbar-nav {
+    width: 100%;
+} */
+
+.navbar-light.text-light .navbar-brand,
+.navbar-light.text-light .navbar-nav .nav-link, 
+.navbar-light.text-light .navbar-nav .nav-link:focus, 
+.navbar-light.text-light .navbar-nav .nav-link:hover,
+.navbar-light.text-light .navbar-nav .active>.nav-link, 
+.navbar-light.text-light .navbar-nav .nav-link.active, 
+.navbar-light.text-light .navbar-nav .nav-link.show, 
+.navbar-light.text-light .navbar-nav .show>.nav-link{
+    color: #ffffff;
+}
+.navbar-light.text-light .form-inline .form-control{
+    border: none;
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.navbar-light.text-light .btn{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background: transparent;
+    padding: 5px 8px;
+}

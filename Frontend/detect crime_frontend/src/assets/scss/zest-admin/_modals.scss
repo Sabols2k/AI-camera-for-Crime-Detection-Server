@@ -1,0 +1,28 @@
+
+/*------------------------------------
+     Modals 
+ ------------------------------------*/
+.modals-area.row{
+}
+.modal-header .close{
+    margin: -7px -1rem -8px auto;
+}
+.modal-content {
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius: 0px;
+    -o-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+.modal-body {
+    padding: 30px;
+}
+.modal {
+    z-index: 11040;
+}

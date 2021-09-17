@@ -1,0 +1,39 @@
+
+/*---------------------------------------------
+      UI Grid
+----------------------------------------------*/
+.ui-grids{
+    margin: 0px;
+}
+.ui-grids .row>[class^=col] {
+    border: 1px solid #f5f5f5;
+    border-radius: 0px;
+    -o-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    background-color: #ffffff;
+    /*     box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none; */
+    line-height: 50px;
+    margin-bottom: 15px;
+    color: #555555;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0 , .1);
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0 , .1);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0 , .1);
+    -ms-box-shadow: 0 1px 2px 0 rgba(0, 0, 0 , .1);
+    -o-box-shadow: 0 1px 2px 0 rgba(0, 0, 0 , .1);
+}
+.ui-grids .row .col-lg-1 .panel-body {
+    padding: 11px;
+}
+.grid-align .row{
+    min-height: 10rem;background: #ccc;margin-bottom: 15px;
+}
+
+.grid-align .row .col{
+    margin-bottom: 0px;
+}

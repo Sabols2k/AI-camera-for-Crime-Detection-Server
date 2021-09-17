@@ -1,0 +1,76 @@
+
+/*-----------------------------------------------------------
+    List Group
+----------------------------------------------------------*/
+
+.list-group {
+    border-radius: 0px;
+    -o-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+.list-group-item:first-child {
+    -webkit-border-top-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    border-top-left-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    border-top-right-radius: 0px;
+}
+.list-group-item:last-child {
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-bottom-left-radius: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-bottom-right-radius: 0px;
+}
+.list-group-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    background-color: #ffffff;
+    border-color: #eaeaea;
+}
+.list-group-item-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+}
+.list-group-item-info {
+    color: #31708f;
+    background-color: #d9edf7;
+}
+.list-group-item-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+}
+.list-group-item-danger {
+    color: #a94442;
+    background-color: #f2dede;
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    text-shadow: none;
+    background-image: none;
+    border-color: $primary-color;
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    color: #fff;
+    background-color: $primary-color;
+    border-color: $primary-color;
+}
+.list-group-item.active .list-group-item-heading, .list-group-item.active:hover .list-group-item-heading, .list-group-item.active:focus .list-group-item-heading, .list-group-item.active .list-group-item-heading>small, .list-group-item.active:hover .list-group-item-heading>small, .list-group-item.active:focus .list-group-item-heading>small, .list-group-item.active .list-group-item-heading>.small, .list-group-item.active:hover .list-group-item-heading>.small, .list-group-item.active:focus .list-group-item-heading>.small {
+    color: #ffffff;
+}
+.list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
+    color: #eaeaea;
+}
+.list-group-item .list-group-item-text {
+    color: #999999;
+}
+.list-group-item .list-group-item-heading {
+    color: #555555;
+}

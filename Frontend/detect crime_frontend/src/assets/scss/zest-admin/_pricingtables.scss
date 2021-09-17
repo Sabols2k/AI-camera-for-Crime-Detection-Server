@@ -1,0 +1,119 @@
+
+/*-----------------------------------------
+    Pricing Tables 
+------------------------------------------*/
+
+.pricing-tables .price-pack.recommended .head {
+    margin-bottom: 20px;
+}
+.pricing-tables.compress.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.pricing-tables.compress .col-sm-4, .pricing-tables.compress .col-md-4, .pricing-tables.compress .col-sm-3, .pricing-tables.compress .col-md-3 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.pricing-tables.compress .price-pack {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.pricing-tables.compress .price-pack .head {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.price-pack {
+    -webkit-box-shadow: 0 2px 2px rgba(100, 100, 100, 0.06);
+    -moz-box-shadow: 0 2px 2px rgba(100, 100, 100, 0.06);
+    box-shadow: 0 2px 2px rgba(100, 100, 100, 0.06);
+    min-height: 100px;
+    background: #fff;
+    margin: 20px 0;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.price-pack .head {
+    padding: 15px 20px;
+    background: $primary-color;
+    color: #fff;
+}
+.price-pack {
+    border: 1px solid #eeeeee;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+.compress .price-pack {
+    border: 1px solid #fafafa;
+}
+.price-pack .head h3 {
+    color: #ffffff;
+}
+.price-pack .head h1, .price-pack .head h2, .price-pack .head h3 {
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+}
+.price-pack .price {
+    padding-top: 15px;
+    border-bottom: 1px solid #eaeaea;
+    margin: 0px auto 30px auto;
+    width: 80%;
+    padding-bottom: 15px;
+}
+.price-pack .price h3 {
+    font-size: 82px;
+    vertical-align: top;
+    line-height: 1;
+}
+.price-pack .price h3 span {
+    font-size: 38px;
+    vertical-align: top;
+    position: relative;
+    margin: 6px 0 0 -7px;
+    display: inline-block;
+}
+.price-pack .price h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+.price-pack .btn {
+    text-transform: uppercase;
+}
+.price-pack ul {
+    padding: 0px 15px 15px 15px;
+    margin-bottom: 0px;
+}
+.price-pack ul li {
+    margin-bottom: 15px;
+}
+.price-pack ul li a {
+    text-decoration: underline;
+    color: #e6e9ed;
+}
+.price-pack ul li:last-child {
+    border-bottom: none;
+}
+.price-pack ul strong {
+    font-weight: 700;
+}
+/*blockquote.purple{ border-color: rgba(103,58,183,1.0); }
+blockquote.accent{ border-color: $accent-color; }
+*/
+
+.price-pack.recommended {
+    margin-top: 6px;
+    -webkit-box-shadow: 0 0 6px rgba(100, 100, 100, 0.22);
+    -moz-box-shadow: 0 0 6px rgba(100, 100, 100, 0.22);
+    box-shadow: 0 0 6px rgba(100, 100, 100, 0.22);
+    position: relative;
+    z-index: 99;
+    background-color: #ffffff;
+}
+.price-pack.recommended .head {
+    background: $accent-color;
+}
+.price-pack.recommended .btn {
+    margin-bottom: 10px;
+}

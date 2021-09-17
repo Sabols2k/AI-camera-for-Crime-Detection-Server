@@ -1,0 +1,164 @@
+
+/*---------------------------------------------
+    Tooltips      
+----------------------------------------------*/
+
+.tooltip {
+    font-family: $sans-serif-family;
+    font-size: 13px;
+    line-height: 21px;
+    text-shadow: none;
+}
+.tooltip .arrow{
+    opacity: 0.7;
+}
+.tooltip-btns{
+    button{
+        margin: 0 15px 15px 0;
+    }   
+}
+.toolip-btn{
+    display: inline-block;
+}
+
+.tooltip-inner {
+    padding: 5px 13px;
+    background-color: #555555;
+    border-radius: 0px;
+    -o-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+.tooltip.top .tooltip-arrow {
+    border-top-color: #555555;
+}
+.tooltip.left .tooltip-arrow {
+    border-left-color: #555555;
+}
+.tooltip.right .tooltip-arrow {
+    border-right-color: #555555;
+}
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #555555;
+}
+.tooltip.purple .tooltip-inner {
+    background-color: $purple-color;
+}
+.tooltip.purple.top .tooltip-arrow {
+    border-top-color: $purple-color;
+}
+.tooltip.purple.left .tooltip-arrow {
+    border-left-color: $purple-color;
+}
+.tooltip.purple.right .tooltip-arrow {
+    border-right-color: $purple-color;
+}
+.tooltip.purple.bottom .tooltip-arrow {
+    border-bottom-color: $purple-color;
+}
+.tooltip.success .tooltip-inner {
+    background-color: $success-color;
+}
+.tooltip.success.top .tooltip-arrow {
+    border-top-color: $success-color;
+}
+.tooltip.success.left .tooltip-arrow {
+    border-left-color: $success-color;
+}
+.tooltip.success.right .tooltip-arrow {
+    border-right-color: $success-color;
+}
+.tooltip.success.bottom .tooltip-arrow {
+    border-bottom-color: $success-color;
+}
+.tooltip.warning .tooltip-inner {
+    background-color: $warning-color;
+}
+.tooltip.warning.top .tooltip-arrow {
+    border-top-color: $warning-color;
+}
+.tooltip.warning.left .tooltip-arrow {
+    border-left-color: $warning-color;
+}
+.tooltip.warning.right .tooltip-arrow {
+    border-right-color: $warning-color;
+}
+.tooltip.warning.bottom .tooltip-arrow {
+    border-bottom-color: $warning-color;
+}
+.tooltip.info .tooltip-inner {
+    background-color: $info-color;
+}
+.tooltip.info.top .tooltip-arrow {
+    border-top-color: $info-color;
+}
+.tooltip.info.left .tooltip-arrow {
+    border-left-color: $info-color;
+}
+.tooltip.info.right .tooltip-arrow {
+    border-right-color: $info-color;
+}
+.tooltip.info.bottom .tooltip-arrow {
+    border-bottom-color: $info-color;
+}
+.tooltip.danger .tooltip-inner {
+    background-color: $danger-color;
+}
+.tooltip.danger.top .tooltip-arrow {
+    border-top-color: $danger-color;
+}
+.tooltip.danger.left .tooltip-arrow {
+    border-left-color: $danger-color;
+}
+.tooltip.danger.right .tooltip-arrow {
+    border-right-color: $danger-color;
+}
+.tooltip.danger.bottom .tooltip-arrow {
+    border-bottom-color: $danger-color;
+}
+.tooltip.accent .tooltip-inner {
+    background-color: $accent-color;
+}
+.tooltip.accent.top .tooltip-arrow {
+    border-top-color: $accent-color;
+}
+.tooltip.accent.left .tooltip-arrow {
+    border-left-color: $accent-color;
+}
+.tooltip.accent.right .tooltip-arrow {
+    border-right-color: $accent-color;
+}
+.tooltip.accent.bottom .tooltip-arrow {
+    border-bottom-color: $accent-color;
+}
+.tooltip.primary .tooltip-inner {
+    background-color: $primary-color;
+}
+.tooltip.primary.top .tooltip-arrow {
+    border-top-color: $primary-color;
+}
+.tooltip.primary.left .tooltip-arrow {
+    border-left-color: $primary-border-color;
+}
+.tooltip.primary.right .tooltip-arrow {
+    border-right-color: $primary-color;
+}
+.tooltip.primary.bottom .tooltip-arrow {
+    border-bottom-color: $primary-color;
+}
+.tooltip.secondary .tooltip-inner {
+    background-color: #9e9e9e;
+}
+.tooltip.secondary.top .tooltip-arrow {
+    border-top-color: #9e9e9e;
+}
+.tooltip.secondary.left .tooltip-arrow {
+    border-left-color: #9e9e9e;
+}
+.tooltip.secondary.right .tooltip-arrow {
+    border-right-color: #9e9e9e;
+}
+.tooltip.secondary.bottom .tooltip-arrow {
+    border-bottom-color: #9e9e9e;
+}

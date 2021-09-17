@@ -1,0 +1,109 @@
+
+/*---------------------------------------------
+    Alert Notifications
+----------------------------------------------*/
+
+.alert {
+    border-radius: 0px;
+    -o-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    text-shadow: none;
+    background: #eaeaea;
+}
+.alert-warning {
+    border: 1px solid $warning-color;
+    background: $warning-color;
+    color: #ffffff;
+}
+.alert-success {
+    border: 1px solid $success-color;
+    background: $success-color;
+    color: #ffffff;
+}
+.alert-info {
+    border: 1px solid $info-color;
+    background: $info-color;
+    color: #ffffff;
+}
+.alert-danger, .alert-error {
+    border: 1px solid $danger-color;
+    background: $danger-color;
+    color: #ffffff;
+}
+.alert button.close span {
+    color: #ffffff;
+}
+.alert button.close {
+    opacity: 0.6;
+}
+.alert {
+    padding: 20px 35px 20px 20px;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+.alert *, .alert a {
+    color: #ffffff;
+}
+.alert a {
+    font-weight: bold;
+}
+.alert button.close span {
+    color: #ffffff;
+    opacity: 1;
+    font-size: 33px;
+    font-weight: 300;
+    line-height: 25px;
+    top: 16%;
+}
+.alert-default *, .alert-default a, .alert-default {
+    color: #777777;
+}
+.alert.alert-default button.close span {
+    color: #777777;
+}
+.alert-primary {
+    background: $primary-color;
+    color: #ffffff;
+}
+.alert-heading{
+    margin-top: 0px;
+}
+.notification_btns .btn {
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.alert-primary .alert-link,
+.alert-success .alert-link,
+.alert-info .alert-link,
+.alert-warning .alert-link,
+.alert-dark .alert-link,
+.alert-danger .alert-link{
+    color: $white-color;
+}
+.notification-popup{
+    position: relative;
+    z-index: 9999;
+}
+.notification-popup .alert{
+    padding: 25px;
+}
+
+.notification-popup [data-notify=icon]{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.notification-popup .alert .close span{
+    font-size: 25px;
+    line-height: 35px;
+}
+.notification-btns{
+    button{
+    margin: 0 0 15px 0;
+    }
+}

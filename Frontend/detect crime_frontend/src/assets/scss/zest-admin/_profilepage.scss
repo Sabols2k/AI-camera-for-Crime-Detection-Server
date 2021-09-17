@@ -1,0 +1,212 @@
+
+/*-----------------------------------------------------------
+    Profile Page
+----------------------------------------------------------*/
+
+/* .uprofile-image {
+    width: 100%;
+    display: inline-block;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+.uprofile-image img {
+    height: 120px;
+    width: 120px;
+    background-color: #999999;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 auto;
+} */
+.uprofile-image img{
+    margin-top: 15px;
+}
+.uprofile{
+    margin-top: 20px;
+}
+.uprofile-name {
+    display: inline-block;
+    /* text-align: center; */
+    width: 100%;
+    margin: 0 0;
+}
+.uprofile-name h3 {
+    /* text-align: center; */
+    font-size: 23px;
+    margin: 10px 0 5px 0;
+    display: inline-block;
+    float: left;
+}
+.uprofile-name .btn{
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.uprofile-name h3 a {
+    text-decoration: none;
+    color: #777777;
+}
+.uprofile-name .uprofile-title {
+    color: #aaaaaa;
+    display: inline-block;
+    float: left;
+}
+.uprofile-status {
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+}
+.uprofile-social {
+    margin: 30px 0;
+}
+.uprofile-social .btn {
+    margin: 0 0px 6px 3px;
+}
+.uprofile-info {
+    padding: 25px 40px 15px 40px;
+    background: #e8e8e8;
+    margin-bottom: 20px;
+}
+.uprofile-info li {
+    display: block;
+    margin: 0px 0 5px 0;
+    color: #878787;
+    font-size: 90%;
+}
+.uprofile-info li i {
+    margin-right: 5px;
+}
+.uprofile-content {
+    display: inline-block;
+    min-height: 600px;
+    width: 100%;
+}
+.enter_post {
+    margin: 15px 0 0px 0;
+    padding-right: 0px;
+}
+.enter_post textarea {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    overflow: hidden;
+    word-wrap: break-word;
+    resize: horizontal;
+}
+.enter_post .form-group, .enter_post .form-group .controls {
+    margin: 0px;
+}
+.enter_post_btns {
+    margin: 0px;
+    padding: 0px;
+    margin: 10px 0;
+}
+.enter_post_btns .btn{
+    margin-right: 0px;
+}
+.enter_post_btns .btn-link {
+    margin: 0 10px 0 0px;
+    color: #999999;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.uprofile_wall_posts .pic-wrapper {
+    padding: 0px 0 0px 0;
+    max-width: 50px;
+}
+.uprofile_wall_posts .pic-wrapper img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    min-width: 40px;
+    min-height: 40px;
+    margin: 0px 0 10px 0;
+    background: #aaaaaa;
+    height: 40px;
+    width: 40px;
+    float: right;
+}
+.uprofile_wall_posts .info-wrapper .info {
+    margin: 5px 0 10px 0;
+}
+.uprofile_wall_posts .info-wrapper .info-details, .uprofile_wall_posts .info-wrapper .info-actions {
+    font-size: 85%;
+}
+.uprofile_wall_posts .info-wrapper .info-details li{
+    margin-right: 15px;
+}
+.uprofile_wall_posts .comment {
+    margin: 15px 0 0 0;
+    display: inline-block;
+    width: 100%;
+}
+.uprofile_wall_posts .comment .pic-wrapper img {
+    min-width: 28px;
+    min-height: 28px;
+    height: 28px;
+    width: 28px;
+}
+.comment-input {
+    padding: 0 0 30px 0;
+}
+.uprofile_wall_posts .comment-input .pic-wrapper img {
+    min-width: 28px;
+    min-height: 28px;
+    margin: 0px 0 10px 0;
+}
+
+.uprofile-list span{
+    margin-right: 15px;
+    line-height: 26px;
+    display: inline-block;
+}
+
+.uprofile-list span i{
+    margin-right: 5px;
+}
+
+.profile-btn{
+    float: right;
+}
+
+@media screen and (max-width: 768px) {
+    .uprofile-owner{
+        display: block;
+        width: 100%;
+    }
+    .uprofile-name .btn{
+        margin: 0 15px 15px 0;        
+    }
+    .profile-btn{
+        float: none;
+    }
+    .uprofile-name .uprofile-title{
+        display: none;
+    }
+}
+
+.info-wrapper {
+    width: calc(100% - 90px) !important;
+    flex: none;
+}
+.row.uprofile{
+    margin-right: -30px;
+}
+.row.uprofile-content{
+    margin-right: 0px;
+    width: auto;
+}
+.profile-page{
+    display: inline-block;
+    width: 100%;
+    .content-body{
+        padding-left: 15px;
+    }
+}
+.uprofile_wall_posts{
+    margin-left: 5px;
+    margin-top: -15px;
+}

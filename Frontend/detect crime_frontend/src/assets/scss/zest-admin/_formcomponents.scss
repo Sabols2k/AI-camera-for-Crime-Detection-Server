@@ -1,0 +1,282 @@
+.react-autosuggest__container input,
+.react-time-picker, .react-datetime-picker,
+.react-datepicker__input-container input[type="text"],
+.react-datepicker-wrapper input[type="text"] {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fcfcfc;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    border-radius: 0px;
+}
+
+.react-datepicker-wrapper, .react-datepicker__input-container{
+    width: 100%;
+}
+
+body .react-datetime-picker__button__icon svg{
+    height: 16px;
+    width: 16px;
+}
+
+body {
+
+
+    /* Datepicker */
+    .react-datepicker__header {
+        text-align: center;
+        background-color: #fff;
+        border-bottom: 1px solid #eeeeee;
+    }
+    .react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range {
+        border-radius: 0;
+        background-color: $primary-color;
+        color: #fff;
+    }
+    .react-datepicker__day--selected:hover, .react-datepicker__day--in-selecting-range:hover, .react-datepicker__day--in-range:hover {
+        border-radius: 0;
+        background-color: $primary-color;
+    }
+
+    .react-datepicker__day {
+        padding: 4px;
+    }
+    .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+        width: 2rem;
+    }
+
+    .react-datepicker{
+        border-radius: 0px;
+        -o-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .125);
+        -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .125);
+        box-shadow: 0 3px 8px rgba(0, 0, 0, .125);
+        border:1px solid #dddddd;
+    }
+    .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle{
+        border-bottom-color: #fff;
+    }
+    .react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list{
+        padding: 0px;
+    }
+    .react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box,
+    .react-datepicker__time-container{
+        width: 95px;
+    }
+    .react-datepicker__navigation--next--with-time:not(.react-datepicker__navigation--next--with-today-button) {
+        right: 95px;
+    }
+    .react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected,
+    .react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected:hover {
+        background-color: $primary-color;
+    }
+
+    /*timepicker*/
+    .react-time-picker__button{
+        border: none;
+    }
+    .react-time-picker__button__input__divider {
+        padding: 1px 8px;
+    }
+    .react-time-picker__button__input input{
+        border: none;
+    }
+    .react-time-picker__button button{
+        opacity: 0.6;
+    }
+
+
+    /*datetime picker*/
+    .react-time-picker__wrapper,
+    .react-datetime-picker__wrapper,
+    .react-datetime-picker__button{
+        border: none;
+    }
+    .react-datetime-picker__button__input input{
+        border: none;
+    }
+    .react-datetime-picker__button__input__divider {
+        padding: 1px 5px;
+    }
+
+    .react-datetime-picker__button button{
+        opacity: 0.6;
+    }
+
+    /*DateRange Picker*/
+    .DateRangePicker__CalendarSelection {
+        background-color: $primary-color;
+        border: 1px solid $primary-color;
+    }
+    .DateRangePicker__CalendarHighlight--single {
+      background-color: #fff;
+      border: 1px solid $primary-color;
+  }
+
+  /*tags input*/
+    .react-tagsinput{
+        padding: 4px 0px 0px 4px;
+    }
+    .react-tagsinput input{
+        border: 0px;
+    }
+    .react-tagsinput-tag {
+        background-color: #eee;
+        border-radius: 2px;
+        border: 1px solid #dddddd;
+        color: #555555;
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        padding: 3px 12px;
+    }
+
+
+}
+
+
+body .react-tagsinput-input{
+    width: 200px;
+    padding: 8px 14px;
+    min-height: auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+body .react-autosuggest__container input, body .react-datetime-picker, 
+body .react-datepicker__input-container input[type="text"], body .react-datepicker-wrapper input[type="text"]{
+    border: 1px solid #f5f5f5;
+}
+body .react-datetime-picker,
+body .react-time-picker{
+    padding: 0px 14px;
+}
+body .react-datetime-picker input,
+body .react-time-picker input{
+    width: auto !important;
+    text-align: center;
+    padding: 6px 12px;
+    min-height: auto;
+    margin-right: 0px;
+}
+body .react-datetime-picker input, body .react-time-picker input{
+    border: none;
+}
+.react-datetime-picker__inputGroup__input,
+.react-time-picker__inputGroup__input{
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+body .react-datetime-picker__button:enabled:hover svg g, body .react-datetime-picker__button:enabled:focus svg g,
+body .react-time-picker__button:enabled:hover svg g, body .react-time-picker__button:enabled:focus svg g{
+    stroke: $primary-color;
+}
+@media screen and (max-width: 575px) {
+    body .react-datetime-picker input, body .react-time-picker input{
+        padding: 6px 0px;
+    }
+    body .react-datetime-picker__button__input__divider{
+        padding: 1px 0px;
+    }
+}
+button:focus{
+    outline: none;
+}
+body .react-time-picker__clock {
+    width: 200px;
+    height: 200px;
+    max-width: 100vw;
+    padding: 25px;
+    background-color: #fcfcfc;
+    border: 1px solid #f5f5f5;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+body .react-time-picker__button__icon svg{
+    height: 16px;
+    width: 16px;
+}
+
+body .react-clock__face{
+    border: 2px solid #555555;
+}
+body .react-clock__mark__body{
+    background-color: #555555;    
+}
+body .react-clock__second-hand__body{
+    background-color: $primary-color;
+}
+body .react-clock__hand__body{
+    background-color: $primary-color;
+}
+body .rc-color-picker-panel-params input{
+    min-height: auto;
+    font-size: 13px;
+}
+body .rc-color-picker-panel-inner{
+    padding-bottom: 15px;
+}
+body .dropzone .droparea,
+body .cke_chrome,
+body .react-autosuggest__suggestions-container--open,
+body .rc-color-picker-panel-inner,
+body .react-tagsinput{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #f5f5f5;
+    background-color: #fcfcfc;
+}
+
+
+/*slider*/
+body {
+    .rc-slider-track{
+        background-color: $primary-color;
+    }
+    .rc-slider-handle:active{
+        border-color: $primary-color;
+        -webkit-box-shadow: 0 0 5px $primary-color;
+        box-shadow: 0 0 5px $primary-color;
+    }
+    .rc-slider-handle,
+    .rc-slider-handle:hover {
+        border-color: $primary-color;
+    }
+}
+
+/*numeric input*/
+body {
+    .react-numeric-input b{
+        width: 25px !important;
+        border-color: transparent !important;
+        box-shadow: none !important;
+
+    }
+}

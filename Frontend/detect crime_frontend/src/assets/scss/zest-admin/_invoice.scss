@@ -1,0 +1,104 @@
+
+/*-----------------------------------------------------------
+    Invoice
+----------------------------------------------------------*/
+
+.invoice-title h2 {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    margin: 15px 0 0 0;
+    padding-left: 30px;
+}
+.invoice-head {
+    display: inline-block;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 0px 0px;
+}
+.invoice-head.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.invoice-title {
+    padding-left: 0px;
+}
+.invoice-logo {
+    padding-right: 0px;
+    padding-top: 20px;
+    text-align: right;
+    padding-right: 30px;
+}
+.invoice-info{
+    padding: 0 30px 15px 30px;
+}
+.invoice-title h2{
+    display: inline-block;
+}
+.invoice-summary{
+    padding: 0px;
+}
+.invoice-order{
+    line-height: 40px;
+    margin: 15px;
+    margin: 0 15px 15px 30px;
+    display: block;
+    position: relative;
+    top: 0px;
+
+}
+@media (max-width: 991px) {
+    .invoice-title {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .invoice-logo {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+.invoice-logo img {
+    width: 100%;
+    height: auto;
+    max-width: 221px;
+}
+.invoice-due h2, .invoice-due h3 {
+    display: inline-block;
+}
+.invoice-due h2, .invoice-due h4{
+    margin-bottom: 0px;
+}
+.invoice-head-info {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.invoice-head-info:last-child {
+    padding-left: 0px;
+}
+.invoice-head-info:first-child {
+    padding-right: 0px;
+}
+.table.invoice-table > tbody > tr > .no-line {
+    border-top: none;
+}
+.table.invoice-table > thead > tr > .no-line {
+    border-bottom: none;
+}
+.table.invoice-table > tbody > tr > .thick-line {
+    border-top: 1px solid #aaaaaa;
+}
+.table.invoice-table > thead > tr {
+    background-color: #eeeeee;
+}
+.table.invoice-table tr td {
+    padding: 10px 30px;
+}
+.table.invoice-table .thick-line h4, .table.invoice-table .thick-line h3, .table.invoice-table .no-line h4, .table.invoice-table .no-line h3 {
+    margin: 0px;
+}
+.table.invoice-table > thead > tr > td > h4 {
+    margin: 0;
+    font-size: 18px;
+}

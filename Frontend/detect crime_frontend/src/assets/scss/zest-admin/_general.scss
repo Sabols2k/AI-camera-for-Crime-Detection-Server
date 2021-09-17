@@ -1,0 +1,146 @@
+/*----------------------------------------
+  General Layout Style
+------------------------------------------*/
+
+html {
+    font-size: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+}
+
+html.boxed{
+    background: #E0E0E0;
+}
+
+body {
+    background-color: $body-bg;
+    color: rgba(118, 118, 118, 1.0);
+    font-family: $sans-serif-family;
+    font-size: 14px;
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 23px;
+    font-style: normal;
+    font-weight: 300;
+    min-height: 100%;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+body.boxed {
+    margin: 0 5% !important;
+    max-width: 90%;
+    width: 90%;
+    min-height: 100%;
+    box-shadow: 0px 0px 5px rgba(86, 96, 117, 0.15);
+    -o-box-shadow: 0px 0px 5px rgba(86, 96, 117, 0.15);
+    -ms-box-shadow: 0px 0px 5px rgba(86, 96, 117, 0.15);
+    -moz-box-shadow: 0px 0px 5px rgba(86, 96, 117, 0.15);
+    -webkit-box-shadow: 0px 0px 5px rgba(86, 96, 117, 0.15);
+}
+body.boxed .page-topbar {
+    max-width: 90%;
+    width: 90%;
+    margin-left: 5% !important;
+}
+/*body *{  vertical-align: top; }*/
+
+.paddingLeft0 {
+    padding-left: 0px;
+}
+.paddingRight0 {
+    padding-right: 0px;
+}
+.bottom5 {
+    margin-bottom: 5px;
+}
+.bottom10 {
+    margin-bottom: 10px;
+}
+.bottom15 {
+    margin-bottom: 15px;
+}
+.bottom30 {
+    margin-bottom: 30px;
+}
+.bottom45 {
+    margin-bottom: 45px;
+}
+.top15 {
+    margin-top: 15px;
+}
+.right15 {
+    margin-right: 15px;
+}
+.left15 {
+    margin-left: 15px;
+}
+
+.padding-15{
+    padding: 15px;
+}
+
+.padding-30{
+    padding: 30px;
+}
+
+.padding-0{
+    padding: 0px;
+}
+.margin-0{
+    margin: 0px;
+}
+.spacer{
+    width: 100%;
+    height: 15px;
+    display: block;
+    clear: both;
+}
+.marginBottom30{
+    margin-bottom: 30px;
+}
+section.box.marginBottom0,
+.marginBottom0{
+    margin-bottom: 0px;
+}
+
+.page-container.container-fluid{
+    padding: 0px;
+}
+
+.spacer20{
+    height: 20px;
+    width: 100%;
+    display: block;
+    clear:both;
+}
+.spacer10{
+    height: 10px;
+    width: 100%;
+    display: block;
+    clear:both;
+}
+
+
+/*----------------------------------------
+    Page Title and Breadcrumb  
+------------------------------------------*/
+
+.page-title h1 {
+    font-size: 28px;
+    font-weight: 400;
+    padding: 0 0 0 15px;
+    text-transform: uppercase;
+    font-family: $menu-family;
+    color: #505458;
+    margin-bottom: 15px;
+}
+.page-title .breadcrumb {
+    padding: 0px;
+    margin: 15px 0;
+}
+.page-title {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}

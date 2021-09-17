@@ -1,0 +1,237 @@
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+
+$sans-serif-family:    Roboto, Arial, Helvetica, sans-serif;
+$menu-family:          Roboto, Arial, Helvetica, sans-serif;
+$font-size-base:             14px         !default;
+
+
+$black-menubg:				 #37474f !default;
+$black-hover-menubg:		 #263238 !default;
+$black-graphs-menubg:		 rgba(0, 0, 0, 0.2) !default;
+$black-opacity-1:		 	 rgba(55, 71, 79, 0.1) !default;
+$black-opacity-2:		 	 rgba(55, 71, 79, 0.2) !default;
+$black-opacity-3:		 	 rgba(55, 71, 79, 0.3) !default;
+$black-opacity-4:		 	 rgba(55, 71, 79, 0.4) !default;
+$black-opacity-5:		 	 rgba(55, 71, 79, 0.5) !default;
+$black-opacity-6:		 	 rgba(55, 71, 79, 0.6) !default;
+$black-opacity-7:		 	 rgba(55, 71, 79, 0.7) !default;
+$black-opacity-8:		 	 rgba(55, 71, 79, 0.8) !default;
+
+$border-black-opacity-4:	 rgba(55, 71, 79, 0) !default;
+$border-black-opacity-6:	 rgba(55, 71, 79, 0) !default;
+
+
+$white-color:                #ffffff !default;
+$white-bg:                   #ffffff !default;
+$white-opacity-6:            rgba(245, 245, 245, 0.6) !default;
+$white-opacity-7:            rgba(245, 245, 245, 0.7) !default;
+$white-opacity-8:            rgba(245, 245, 245, 0.8) !default;
+$white-opacity-9:            rgba(245, 245, 245, 0.9) !default;
+$white-opacity-95:           rgba(245, 245, 245, 0.95) !default;
+
+$primary-color:              #26a69a !default;
+$primary-border-color:       transparent !default;
+$accent-color:               #ff8a65 !default;
+
+$logo-bg:                    transparent !default;
+
+$menu-color:				 #cfd8dc !default;
+$font-size-nav-link:         15px       !default;
+$line-height-nav-link:       48px       !default;
+$font-size-nav-weight:       300        !default;
+
+$submenu-color:				 #b0bec5 	!default;
+$font-size-subnav-link:      14px       !default;
+$line-height-subnav-link:    36px       !default;
+$font-weight-subnav-link:    300        !default;
+
+$primary-dark-color: 		 #00897b !default;
+$accent-dark-color:          #ff5722 !default;
+
+$success-color:              #81c784 !default;
+$info-color:                 #4fc3f7 !default;
+$warning-color:              #ffb74d !default;
+$danger-color:               #e57373 !default;
+$success-dark-color: 		 #4caf50 !default;
+$info-dark-color: 		 	 #03a9f4 !default;
+$danger-dark-color: 		 #f44336 !default;
+$warning-dark-color: 		 #ff9800 !default;
+
+$navscroll-color: 			 #78909c !default;
+
+$black-color:                #37474f !default;
+$light-gray:                 #EEEEEE !default;
+$medium-gray:                #AAAAAA !default;
+$dark-gray:                  #757575 !default;
+
+$purple-color:              #7f8ff4 !default;
+$pink-color:                #fb638e !default;
+$red-color:                 #fb6373 !default;
+
+$secondary-color:           #757575 !default;
+$body-bg:           		#f5f5f5 !default;
+
+$menu-image1: 					url("../img/menu-image1.jpg") !default;
+$menu-image2: 					url("../img/menu-image2.jpg") !default;
+$menu-image3: 					url("../img/menu-image3.jpg") !default;
+$menu-image4: 					url("../img/menu-image4.jpg") !default;
+
+$topbar-image1: 				url("../img/topbar-image1.jpg") !default;
+$topbar-image2: 				url("../img/topbar-image2.jpg") !default;
+$topbar-image3: 				url("../img/topbar-image3.jpg") !default;
+$topbar-image4: 				url("../img/topbar-image4.jpg") !default;
+
+$default-color:              #888 !default;
+$default-states-color:       lighten($default-color, 6%) !default;
+$default-color-opacity:      rgba(182, 182, 182, .6) !default;
+
+/*-------------------------------------------------------*/
+
+$none:                       0   !default;
+
+
+$opacity-gray-3:             rgba(222,222,222, .3) !default;
+$opacity-gray-5:             rgba(222,222,222, .5) !default;
+$opacity-gray-8:             rgba(222,222,222, .8) !default;
+
+
+$opacity-5:                  rgba(255,255,255, .5) !default;
+$opacity-8:                  rgba(255,255,255, .8) !default;
+
+$opacity-1:                  rgba(255,255,255, .1) !default;
+$opacity-2:                  rgba(255,255,255, .2) !default;
+
+
+$padding-input-vertical:        11px !default;
+$padding-input-horizontal:      19px !default;
+
+$padding-btn-vertical:         11px !default;
+$padding-btn-horizontal:       22px !default;
+
+$padding-base-vertical:        .5rem !default;
+$padding-base-horizontal:      .7rem !default;
+
+$padding-round-horizontal:     23px !default;
+
+$padding-simple-vertical:      10px !default;
+$padding-simple-horizontal:    17px !default;
+
+$padding-large-vertical:       15px !default;
+$padding-large-horizontal:     48px !default;
+
+$padding-small-vertical:        5px !default;
+$padding-small-horizontal:     15px !default;
+
+$padding-label-vertical:        2px !default;
+$padding-label-horizontal:     12px !default;
+
+$margin-large-vertical:        30px !default;
+$margin-base-vertical:         15px !default;
+
+$margin-base-horizontal:       15px !default;
+
+$margin-bottom:                 10px        !default;
+$border:                        1px solid   !default;
+$border-radius-extra-small:     0.125rem    !default;
+$border-radius-small:           0.1875rem   !default;
+$border-radius-large:           0.25rem     !default;
+$border-radius-extreme:         0.875rem    !default;
+
+$border-radius-large-top:      $border-radius-large $border-radius-large 0 0 !default;
+$border-radius-large-bottom:   0 0 $border-radius-large $border-radius-large !default;
+
+$btn-round-radius:             30px         !default;
+
+$height-base:                  55px         !default;
+
+$btn-icon-size:                 3.5rem       !default;
+$btn-icon-size-regular:         2.375rem      !default;
+$btn-icon-font-size-regular:    0.9375rem     !default;
+$btn-icon-font-size-small:      0.6875rem      !default;
+$btn-icon-size-small:           1.875rem     !default;
+$btn-icon-font-size-lg:         1.325rem     !default;
+$btn-icon-size-lg:              3.6rem         !default;
+
+$font-paragraph:               1em          !default;
+$font-size-navbar:             1em          !default;
+$font-size-mini:               0.7142em     !default;
+$font-size-small:              0.9071em     !default;
+$font-size-base:               14px         !default;
+$font-size-large:              1em          !default;
+$font-size-large-navbar:       20px         !default;
+$font-size-blockquote:         1.1em        !default; // ~ 15px
+
+$general-transition-time:  300ms             !default;
+$fast-transition-time:           150ms       !default;
+$slow-transition-time:           370ms       !default;
+
+$font-size-h1:                 3.5em        !default; // ~ 49px
+$font-size-h2:                 2.5em        !default; // ~ 35px
+$font-size-h3:                 2em          !default; // ~ 28px
+$font-size-h4:                 1.714em      !default; // ~ 24px
+$font-size-h5:                 1.57em       !default; // ~ 22px
+$font-size-h6:                 1em          !default; // ~ 14px
+
+
+$font-weight-light:             300         !default;
+$font-weight-normal:            400         !default;
+$font-weight-semi:              600         !default;
+$font-weight-bold:              700         !default;
+
+$line-height-general:        1.5            !default;
+$btn-icon-line-height:       2.4em          !default;
+$line-height:                1.35em         !default;
+$line-height-lg:             54px           !default;
+
+
+$border-radius-top:        10px 10px 0 0     !default;
+$border-radius-bottom:     0 0 10px 10px     !default;
+
+$dropdown-shadow:          1px 2px 3px 0px rgba(0, 0, 0, 0.125);
+$box-shadow-raised:        0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+$box-shadow:               0 1px 15px 1px rgba(39, 39, 39, 0.1);
+$sidebar-box-shadow:       0px 2px 22px 0 rgba(0, 0, 0,.20), 0px 2px 30px 0 rgba(0, 0, 0,.35);
+
+
+$dropdown-coordinates:      29px -50px       !default;
+
+$select-coordinates:         50% -40px       !default;
+
+$transition-linear:         linear           !default;
+$transition-bezier:         cubic-bezier(0.34, 1.61, 0.7, 1) !default;
+$transition-ease:           ease 0s;
+
+
+//$navbar-padding-a:               9px 13px;
+$navbar-margin-a:                15px 0px;
+
+$padding-social-a:               10px 5px;
+
+$navbar-margin-a-btn:            15px 0px;
+$navbar-margin-a-btn-round:      16px 0px;
+
+$navbar-padding-a-icons:         6px 15px;
+$navbar-margin-a-icons:          6px  3px;
+
+$navbar-padding-base:            0.625rem;
+//$navbar-margin-brand:             5px  0px;
+
+$navbar-margin-brand-icons:      12px auto;
+$navbar-margin-btn:              15px  3px;
+
+$height-icon-sm:				 32px;
+$width-icon-sm:					 32px;
+$padding-icon-sm:			     4px;
+$border-radius-icon-sm:			 7px;
+
+$height-icon-message:			 40px;
+$width-icon-message:			 40px;
+
+$height-icon-message-sm: 		 20px;
+$width-icon-message-sm:			 20px;
+
+// Sidebar variables
+$sidebar-width:              calc(100% - 260px) !default;
+$sidebar-mini-width:         calc(100% - 80px) !default;

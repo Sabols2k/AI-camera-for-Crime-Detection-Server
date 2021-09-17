@@ -1,0 +1,241 @@
+/*---------------------------------------------
+    UI Icons
+----------------------------------------------*/
+.ui-faicon{
+     text-align: center;   
+     margin: 0px 0 40px 0;
+     padding: 25px 15px 18px 15px;
+    overflow: hidden;
+    i{
+        font-size: 36px;
+        opacity: 0.9;
+        margin: 0px 0 15px 0;
+        display: inline-block;
+    }
+    p{
+        margin: 0px 0 0 0;
+        white-space: nowrap;
+    }
+    box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -webkit-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -moz-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -o-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+    -ms-box-shadow: 0px 2px 4px rgba(33, 33, 33, 0.15);
+}
+
+.glyphicon, .fa {
+    font-size: 14px;
+}
+.icon-sm {
+    font-size: 21px;
+}
+.icon-xs {
+    font-size: 14px;
+}
+.icon-md {
+    font-size: 28px;
+}
+.icon-lg {
+    font-size: 42px;
+}
+.icon-xlg {
+    font-size: 70px;
+}
+.icon-rounded {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #777777;
+    color: #ffffff;
+}
+.icon-cornered {
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    border-radius: 10%;
+    padding: 15px;
+    background-color: #777777;
+    color: #ffffff;
+}
+.icon-square {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding: 15px;
+    background-color: #777777;
+    color: #ffffff;
+}
+.icon-bordered {
+    border: 1px solid #777777;
+    padding: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #777777;
+}
+.icon-xs.icon-rounded, .icon-xs.icon-cornered, .icon-xs.icon-square, .icon-xs.icon-bordered {
+    padding: 10px;
+}
+.icon-sm.icon-rounded, .icon-sm.icon-cornered, .icon-sm.icon-square, .icon-sm.icon-bordered {
+    padding: 15px;
+}
+.icon-md.icon-rounded, .icon-md.icon-cornered, .icon-md.icon-square, .icon-md.icon-bordered {
+    padding: 20px;
+}
+.icon-lg.icon-rounded, .icon-lg.icon-cornered, .icon-lg.icon-square, .icon-lg.icon-bordered {
+    padding: 25px;
+}
+.icon-xlg.icon-rounded, .icon-xlg.icon-cornered, .icon-xlg.icon-square, .icon-xlg.icon-bordered {
+    padding: 35px;
+}
+.icon-purple {
+    color: $purple-color;
+}
+.icon-accent {
+    color: $accent-color;
+}
+.icon-primary {
+    color: $primary-color;
+}
+.icon-pink {
+    color: $pink-color;
+}
+.icon-red{
+    color: $red-color;
+}
+.icon-success {
+    color: $success-color;
+}
+.icon-info {
+    color: $info-color;
+}
+.icon-warning {
+    color: $warning-color;
+}
+.icon-danger {
+    color: $danger-color;
+}
+.icon-secondary {
+    color: #9e9e9e;
+}
+.icon-default {
+    color: #777777;
+}
+.icon-purple.icon-rounded, .icon-purple.icon-cornered, .icon-purple.icon-square {
+    background-color: $purple-color;
+    color: #ffffff;
+}
+.icon-accent.icon-rounded, .icon-accent.icon-cornered, .icon-accent.icon-square {
+    background-color: $accent-color;
+    color: #ffffff;
+}
+.icon-primary.icon-rounded, .icon-primary.icon-cornered, .icon-primary.icon-square {
+    background-color: $primary-color;
+    color: #ffffff;
+}
+.icon-success.icon-rounded, .icon-success.icon-cornered, .icon-success.icon-square {
+    background-color: $success-color;
+    color: #ffffff;
+}
+.icon-info.icon-rounded, .icon-info.icon-cornered, .icon-info.icon-square {
+    background-color: $info-color;
+    color: #ffffff;
+}
+.icon-warning.icon-rounded, .icon-warning.icon-cornered, .icon-warning.icon-square {
+    background-color: $warning-color;
+    color: #ffffff;
+}
+.icon-danger.icon-rounded, .icon-danger.icon-cornered, .icon-danger.icon-square {
+    background-color: $danger-color;
+    color: #ffffff;
+}
+.icon-secondary.icon-rounded, .icon-secondary.icon-cornered, .icon-secondary.icon-square {
+    background-color: #9e9e9e;
+    color: #ffffff;
+}
+.icon-default.icon-rounded, .icon-default.icon-cornered, .icon-default.icon-square {
+    background-color: #777777;
+    color: #ffffff;
+}
+.icon-purple.icon-bordered {
+    border: 1px solid $purple-color;
+    background-color: transparent;
+    color: $purple-color;
+}
+.icon-accent.icon-bordered {
+    border: 1px solid $accent-color;
+    background-color: transparent;
+    color: $accent-color;
+}
+.icon-primary.icon-bordered {
+    border: 1px solid $primary-color;
+    background-color: transparent;
+    color: $primary-color;
+}
+.icon-success.icon-bordered {
+    border: 1px solid $success-color;
+    background-color: transparent;
+    color: $success-color;
+}
+.icon-info.icon-bordered {
+    border: 1px solid $info-color;
+    background-color: transparent;
+    color: $info-color;
+}
+.icon-warning.icon-bordered {
+    border: 1px solid $warning-color;
+    background-color: transparent;
+    color: $warning-color;
+}
+.icon-danger.icon-bordered {
+    border: 1px solid $danger-color;
+    background-color: transparent;
+    color: $danger-color;
+}
+.icon-secondary.icon-bordered {
+    border: 1px solid #9e9e9e;
+    background-color: transparent;
+    color: #9e9e9e;
+}
+.icon-default.icon-bordered {
+    border: 1px solid #777777;
+    background-color: transparent;
+    color: #777777;
+}
+.uiicons i {
+    margin: 10px 20px 0 0;
+}
+.bs-glyphicons-list, .fontawesome-icon-list {
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.bs-glyphicons-list li, .fontawesome-icon-list .fa-hover {
+    margin: 0 0 10px 0;
+    padding: 5px 15px 3px 15px;
+    display: block;
+}
+.bs-glyphicons-list li .glyphicon, .fontawesome-icon-list .fa-hover span i {
+    min-width: 30px;
+    color: $primary-color;
+}
+.bs-glyphicons-list li, .fontawesome-icon-list .fa-hover span {
+    display: inline-block;
+}
+.bs-glyphicons-list li .glyphicon-class, .fontawesome-icon-list .fa-hover span span {
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+}
+.bs-glyphicons-list li:hover, .fontawesome-icon-list .fa-hover:hover {
+    background-color: #f5f5f5;
+}
+.bs-glyphicons-list li:hover .glyphicon, .fontawesome-icon-list .fa-hover:hover i {
+    color: #555555;
+}
+.bs-glyphicons-list .glyphicon, .fontawesome-icon-list .fa {
+    font-size: 28px;
+}
